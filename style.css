@@ -1,0 +1,83 @@
+/*Heading Design*/
+.container{
+            background-color: gainsboro;
+}
+.slide-show{
+             background: url(./bgnd/fpnda.jpg);
+}
+.head{
+        background-color: solid gainsboro;
+        display: flex;
+        justify-content: center;.0.
+} 
+.title{
+        text-align: center;
+        font-size: 40px;
+        text-transform: uppercase;
+        font-family: fantasy;
+        padding-bottom: 130px;
+        justify-content: center; 
+}
+.title{
+        height: 45px;
+        border-bottom: 3px solid transparent;
+        background-color: gainsboro;
+}
+.title a { 
+           background-color: gainsboro;
+           transition: border-bottom 0.5s;
+           text-decoration: none;
+           color: rgb(0, 0, 0);
+           transition: color 0.5s;
+}
+.title :hover{
+               border-bottom: 3px solid gray;
+}
+.title :hover{
+               color: rgba(250, 192, 3, 0.384);        
+}   
+/*Slider Show*/
+.slider-frame{
+               background-color: white;
+               padding: 1px;   
+               overflow: hidden; 
+               width: 800px;
+               height: 1131px; 
+               margin-left: auto;
+               margin-right: auto;
+               margin-top: auto;
+               margin-bottom: auto;
+}
+@-webkit-keyframes slide-animation{
+                                    0%{left:0%;}
+                                    10%{left:0%;}
+                                    20%{left:-100%;}
+                                    30%{left:-100%;}
+                                    40%{left:-200%;}
+                                    50%{left:-200%;}
+                                    60%{left:-300%;}
+                                    70%{left:-300%;}
+                                    80%{left:-400%;}
+                                    90%{left:-400%;}
+                                    100%{left: 0%;}
+}
+.slide-images{
+               width: 4000;
+               height: 1131px;
+               margin: 0 0 -1600px;
+               position: relative;
+               overflow: hidden;
+               -webkit-animation-name: slide-animation;
+               -webkit-animation-duration: 10s;
+               -webkit-animation-iteration-count: infinite;
+               -webkit-animation-direction: initial;
+               -webkit-animation-play-state: running;
+}
+.img-container{
+               width: 800px;
+               height: 1131px;
+               position: relative;
+               float: left;
+               margin: 0px;
+               padding: 0px;
+}
